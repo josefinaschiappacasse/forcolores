@@ -1,8 +1,9 @@
-
+let sketch;
 
 function setup() {
-createCanvas(700, 700);
-  background(255);
+ sketch = createCanvas(700, 700);
+ sketch.parent("p5");
+ background(255);
 }
 //Se dibujan 3 triangulos, rojo, amarillo y azul. Se fijan dos vertices de cada uno y en vertice restante se establece como ramdom.
 function draw() {
